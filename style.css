@@ -301,7 +301,7 @@ body {
   height: 3px;
   bottom: 0;
   left: 0;
-  background-color: #ffffff;
+  background-color: #000000;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -310,10 +310,6 @@ body {
 .main-right .main-r-b-l:hover .underline::after{
     transform: scaleX(1);
     transform-origin: bottom left;
-}
-
-.logo{
-     transition: width 0.3s ease;
 }
 
 /* media query */
